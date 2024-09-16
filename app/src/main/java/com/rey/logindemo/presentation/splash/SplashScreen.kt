@@ -65,7 +65,7 @@ fun Splash(alpha: Float) {
                 .wrapContentSize(Alignment.Center)
         ) {
             Text(
-                text = "Tech λ",
+                text = "Splash Screen",
                 style = MaterialTheme.typography.headlineLarge.copy(color = btncolor, fontWeight = FontWeight.Bold, fontSize = 40.sp),
                 modifier = Modifier
                     .alpha(alpha)
